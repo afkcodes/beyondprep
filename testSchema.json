@@ -1,0 +1,37 @@
+// This is a schema for test panel 
+{	
+	"id": "https://www.beyondtest.tk/test-panel/examSchema.json",
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"title": "onlineTest",
+	"description":" this json will have all the questions skeleton",
+	"type": "object",
+	"properties":{
+		"question":{
+			"description":"question that appears",
+			"type":"string"
+		},
+		"questionCategory":{
+			"description":"category of question",
+			"type":"string"
+		},
+		"answertype":{
+			"description":"type of answers to accept",
+			"type":"object",
+			"properties":{
+				"multipleChoice":{
+					"description":" 4 choices of answer",
+					"type":"array",
+					"items":{
+						"type":"string"
+
+					},
+					"booleanTypeans":{
+						"description":"2 choices of answer",
+						"type":"boolean"
+					}
+				}
+			}
+		}
+	}
+
+}

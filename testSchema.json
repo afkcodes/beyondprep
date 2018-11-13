@@ -1,4 +1,3 @@
-// This is a schema for test panel 
 {	
 	"id": "https://www.beyondtest.tk/test-panel/examSchema.json",
 	"$schema": "http://json-schema.org/draft-07/schema#",
@@ -7,12 +6,23 @@
 	"type": "object",
 	"properties":{
 		"question":{
-			"description":"question that appears",
-			"type":"string"
-		},
-		"questionCategory":{
-			"description":"category of question",
-			"type":"string"
+			"description":"List of questions that appears",
+			"type":"array",
+			"items":{
+				"type":"object",
+				"questionId":{
+					"properties":"Serial number of question",
+					"type":"number"
+				},
+				"category":{
+					"description":"Category to which question belong",
+					"type":"string"
+				},
+				"question":{
+					"description":" Full question that user sees.",
+					"type":"string"
+				}				
+			}
 		},
 		"answertype":{
 			"description":"type of answers to accept",

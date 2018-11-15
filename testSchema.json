@@ -21,10 +21,8 @@
 				"question":{
 					"description":" Full question that user sees.",
 					"type":"string"
-				}				
-			}
-		},
-		"answertype":{
+				},
+				"answertype":{
 			"description":"type of answers to accept",
 			"type":"object",
 			"properties":{
@@ -33,15 +31,18 @@
 					"type":"array",
 					"items":{
 						"type":"string"
-
 					},
 					"booleanTypeans":{
 						"description":"2 choices of answer",
 						"type":"boolean"
+							}
+						}
 					}
-				}
+				}	
+
 			}
 		}
+		
 	}
 
 }

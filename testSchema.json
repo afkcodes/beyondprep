@@ -23,18 +23,18 @@
 					"type":"string"
 				},
 				"answertype":{
-			"description":"type of answers to accept",
-			"type":"object",
-			"properties":{
-				"multipleChoice":{
-					"description":" 4 choices of answer",
-					"type":"array",
-					"items":{
-						"type":"string"
-					},
-					"booleanTypeans":{
-						"description":"2 choices of answer",
-						"type":"boolean"
+					"description":"type of answers to accept",
+					"type":"object",
+					"properties":{
+						"multipleChoice":{
+							"description":" 4 choices of answer",
+							"type":"array",
+							"items":{
+								"type":"string"
+							},
+						"booleanTypeans":{
+							"description":"2 choices of answer",
+							"type":"boolean"
 							}
 						}
 					}

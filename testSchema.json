@@ -31,10 +31,6 @@
 							"type":"array",
 							"items":{
 								"type":"string"
-							},
-						"booleanTypeans":{
-							"description":"2 choices of answer",
-							"type":"boolean"
 							}
 						}
 					}

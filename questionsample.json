@@ -1,0 +1,46 @@
+{
+  "questions": [
+    {
+      "questionId": 1,
+      "category": "maths",
+      "question": "whats equals 2+2 ?",
+      "answer": {
+        "multipleChoice": [
+          "4",
+          "5",
+          "6",
+          "8"
+        ]
+      }
+    },
+
+    {
+      "questionId": 2,
+      "category": "GK",
+      "question": "_____ is the President of U.S.A",
+      "answer": {
+        "multipleChoice": [
+          "Narendra Modi",
+          "Donald Trump",
+          "Xi Jinping",
+          "Vladmir Putin"
+        ]
+      }
+    },
+
+     {
+      "questionId": 3,
+      "category": "English",
+      "question": "Zbee _____ my best friend from U.S.A",
+      "answer": {
+        "multipleChoice": [
+          "not",
+          "the",
+          "there",
+          "is"
+        ]
+      }
+    }
+
+  ]
+}

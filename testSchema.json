@@ -34,6 +34,10 @@
 							}
 						}
 					}
+				},
+				"marks":{
+					"description":"Marks of each question",
+					"type":["number", "null"]
 				}	
 
 			}
